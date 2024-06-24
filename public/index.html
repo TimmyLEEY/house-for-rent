@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-auth-compat.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Sign-up</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="head">
+      <h1>Welcome</h1>
+    </div>
+    <div>
+      <div>
+        <button></button>
+
+      </div>
+      <div>
+        <button></button>
+      </div>
+    </div>
+    <form action="">
+      <div class="formm">
+        <label for="">First name*</label><br>
+        <input id="firstName" type="text">
+      </div>
+      <br>
+      <div class="formm">
+        <label for="lastName">Last name*</label><br>
+        <input id="lastName" type="text">
+      </div>
+      <br>
+
+      <div class="formm">
+        <label for="email">Email*</label><br>
+        <input id="email" type="text">
+      </div>
+      <br>
+
+      <div class="formm">
+        <label for="password">Password*</label><br>
+        <input id="password" type="password">
+      </div>
+      <br>
+
+      <div class="formm">
+        <label for="number">Phone number*</label><br>
+        <input id="number" type="number">
+      </div>
+      <br>
+
+
+      <div class="formm">
+        <label for="website">Your Current Website (Optional)</label><br>
+        <input id="website" type="text">
+      </div>
+      <br>
+
+
+      <div class="formm">
+        <label for="">Are you an Realtor, Team, or Brokerage?*</label><br>
+        <select name="" id="">
+          <option value="">Please select</option>
+          <option value="Realtor">Realtor</option>
+          <option value="Client">Client</option>
+          <option value="Client">Team</option>
+          <option value="Brokerage">Brokerage</option>
+        </select>
+      </div>
+      <br>
+
+      <button onclick="signUp(event)" id="btn">Sign-up</button>
+
+      <button onclick="goggle(event)">goggle</button>
+    </form>
+    <br>
+
+    <div>
+      <p>By providing Luxury Presence with your contact information, you acknowledge and agree to our Privacy</p>
+      <p>Policy and consent to receiving marketing communications, including through automated calls, texts and</p>
+      <p>emails.</p>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script src="config.js"></script>
+<script src="sign-up.js"></script>

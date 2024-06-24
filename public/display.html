@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-storage-compat.js"></script>
+    <link rel="stylesheet" href="display.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div id="fetchInfo">
+
+        </div>
+        <div id="map">
+            <img src="world-map.gif" alt="">
+        </div>
+    </div>
+
+    <div id="fullInfo">
+
+    </div>
+    <div id="getTour">
+        <div>Rental Application form</div>
+        <form action="">
+            <label for="desire">Desire move-in date</label>
+            <br>
+            <input id="desire" type="text">
+            <br>
+            <label for="firstName">First name</label>
+            <br>
+            <input id="firstName" type="text">
+            <br>
+            <label for="LastName">Last name</label>
+            <br>
+            <input id="lastName" type="text">
+            <br><br>
+            <label for="birth">Birth date</label>
+            <br>
+            <input id="birth" type="text">
+            <br><br>
+            <label for="licence">Driver licence number</label>
+            <br>
+            <input id="licence" type="text">
+            <br><br>
+            <label for="state">State</label>
+            <br>
+            <input id="state" type="text">
+            <br><br>
+            <label for="phone">Phone number</label>
+            <br>
+            <input id="phone" type="text">
+            <br><br>
+            <label for="email">Email address</label>
+            <br>
+            <input id="email" type="text">
+            <br><br>
+            <label for="adult">Total Number of People who will Occupy the Property-Adults</label>
+            <br>
+            <input id="adult" type="number">
+            <br><br>
+            <label for="children">Total Number of People who will Occupy the Property-Children</label>
+            <br>
+            <input id="children" type="number"><br>
+            <label for="reason">Reason for moving</label>
+            <br>
+            <input id="reason" type="text">
+            <br><br><br>
+            <label for="front">Driver licence picture(front)</label>
+            <input id="front" type="file">
+            <br><br>
+            <label id="back" for="">Driver licence picture(back)</label>
+            <br>
+            <input id="back" type="file">
+            <br><br>
+            <label for="sign">Signature and date</label>
+            <br>
+            <input id="sign" type="file">
+            <br><br><br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
+
+<script src="config.js"></script>
+<script src="display.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
